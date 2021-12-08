@@ -37,4 +37,3 @@ function (firstName, lastName, age){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
-  * Official answer is that it takes a first name, last name, and age, and returns those as an object.
