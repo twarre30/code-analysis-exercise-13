@@ -37,3 +37,39 @@ function (firstName, lastName, age){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
+
+
+## Inputs and Outputs
+
+| Input | Output |
+| :---: | :---: |
+| Tiffany Warren 49 | firstName: Tiffany lastName: Warren age: 49 |
+| Emily Butler 23 | firstName: Emily lastName: Butler age: 23 |
+| Kristin Warwick 19 | firstName: Kristin lastName: Warwick age: 19 |
+
+
+```js
+
+const firstName = ["Tiffany", "Emily", "Kristin"]
+const lastName = ["Warren". "Butler", "Warwick"]
+const age = [49, 23, 19]
+
+function (firstName, lastName, age){
+  const person = {
+    firstName: firstName,		
+    lastName: lastName,			
+    age: age,				
+  }
+
+  return person				// firstName: Tiffany, lastName: Warren, age: 49,
+					// firstName: Emily, lastName: Butler, age: 23,
+					// firstName: Kristin, lastName: Warwick, age: 19 
+}
+
+```
+
+## Summary
+
+By using an array, it will allow multiple items to be pulled by one function.
+
+
