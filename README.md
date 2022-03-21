@@ -51,7 +51,7 @@ function (firstName, lastName, age){
 ```js
 
 const firstName = ["Tiffany", "Emily", "Kristin"]
-const lastName = ["Warren". "Butler", "Warwick"]
+const lastName = ["Warren", "Butler", "Warwick"]
 const age = [49, 23, 19]
 
 function (firstName, lastName, age){
