@@ -43,9 +43,9 @@ function (firstName, lastName, age){
 
 | Input | Output |
 | :---: | :---: |
-| Tiffany Warren 49 | firstName: Tiffany lastName: Warren age: 49 |
-| Emily Butler 23 | firstName: Emily lastName: Butler age: 23 |
-| Kristin Warwick 19 | firstName: Kristin lastName: Warwick age: 19 |
+| Tiffany, Warren, 49 | {firstName:"Tiffany" lastName:"Warren" age: 49} |
+| Emily, Butler, 23 | {firstName:"Emily" lastName:"Butler" age: 23} |
+| Kristin, Warwick, 19 | {firstName:"Kristin" lastName:"Warwick" age: 19} |
 
 
 ```js
